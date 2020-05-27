@@ -6,6 +6,8 @@
         <@l.logout />
     </div>
 
+    <span style="color: lightblue"><a href="/user">User List</a></span>
+
     <div>
         <form method="post">
             <input type="text" name="text" placeholder="Введите сообщение"/>
