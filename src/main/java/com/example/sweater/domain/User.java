@@ -70,6 +70,10 @@ public class User implements UserDetails {
         return getRoles();
     }
 
+    public boolean isAdmin() {
+        return getRoles().contains(Role.ADMIN);
+    }
+
     public void setUsername(String username) {
         this.username = username;
     }
